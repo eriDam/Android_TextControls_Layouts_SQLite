@@ -15,8 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="Manager"
+            android:scaleX="1.80"
+            android:scaleY="1.80"
             android:src="@drawable/ic_bdc"
-
             android:tag="Manager DB" />
         <ImageButton
             android:id="@+id/imageButtonNotLike"
