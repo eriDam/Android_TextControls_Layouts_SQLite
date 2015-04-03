@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="com.examples.eri.followlessons.ManagerBdActivity"
+android:orientation="vertical"
+android:gravity="top|center"
+android:background="@drawable/bg_pix">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="@string/titulo"
+    android:id="@+id/tv_titulo"
+    android:layout_gravity="center_horizontal"
+    android:textSize="24sp" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="458dp"
+    android:padding="0dp"
+    android:baselineAligned="false"
+    android:gravity="top"
+    android:layout_margin="0dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear"
+        android:id="@+id/btn_crear"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:drawableLeft="@drawable/ic_bdc"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insertar"
+        android:id="@+id/btn_insertar"
+        android:layout_below="@+id/btn_crear"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_add" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:id="@+id/btn_buscar"
+        android:layout_below="@+id/btn_borrar"
+        android:layout_alignLeft="@+id/btn_insertar"
+        android:layout_alignStart="@+id/btn_insertar"
+        android:drawableLeft="@drawable/ic_buscar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editar"
+        android:id="@+id/btn_editar"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_edit" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/borrar"
+        android:id="@+id/btn_borrar"
+        android:layout_below="@+id/btn_insertar"
+        android:layout_alignRight="@+id/btn_insertar"
+        android:layout_alignEnd="@+id/btn_insertar"
+        android:drawableLeft="@drawable/ic_borrar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:id="@+id/btn_salir"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_salir" />
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Controles de Texto</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Saludo">Hola, introduce tu password</string>
+    <string name="Mostrar">Mostrar Passwd</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="btn1">btn 1</string>
+    <string name="btn2">btn 2</string>
+    <string name="btn3">btn 3</string>
+</resources>

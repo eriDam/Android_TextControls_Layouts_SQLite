@@ -1,0 +1,2 @@
+include ':app', ':controlestextavanzados', ':botones', ':controlesselecciongridlistspinnerrad', ':layouts', ':tipospantalla', ':layouttablet', ':followlessons'
+include ':androidbasedatos3'

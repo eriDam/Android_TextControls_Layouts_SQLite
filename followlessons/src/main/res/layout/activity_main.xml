@@ -1,0 +1,64 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1"
+    tools:context=".MainActivity">
+    <!--TableLayout distribuye los elementos de forma tabular. Se utiliza la etiqueta
+    <TableRow> cada vez que queremos insertar una nueva línea .-->
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/ibtn_managerBd"
+
+            android:background="#ff5ebdde"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Manager"
+            android:src="@drawable/ic_bdc"
+
+            android:tag="Manager DB" />
+        <ImageButton
+            android:id="@+id/imageButtonNotLike"
+
+            android:background="#fff7fff9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="No me gusta" />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/imageButtonReprod"
+
+            android:background="#FFF7FFF9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Opciones"
+            />
+        <ImageButton
+            android:id="@+id/imageButtonCam"
+
+            android:background="#ff5ebdde"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Salir"
+            />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/iBSettings"
+            android:background="#ff5ebdde"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Opciones"
+            />
+        <ImageButton
+            android:id="@+id/imageButtonExit"
+            android:background="#FFF7FFF9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Salir"
+            />
+    </TableRow>
+
+</TableLayout>

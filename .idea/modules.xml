@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ControlesdeTexto.iml" filepath="$PROJECT_DIR$/ControlesdeTexto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidbasedatos3/androidbasedatos3.iml" filepath="$PROJECT_DIR$/androidbasedatos3/androidbasedatos3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/botones/botones.iml" filepath="$PROJECT_DIR$/botones/botones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controlesselecciongridlistspinnerrad/controlesselecciongridlistspinnerrad.iml" filepath="$PROJECT_DIR$/controlesselecciongridlistspinnerrad/controlesselecciongridlistspinnerrad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controlestextavanzados/controlestextavanzados.iml" filepath="$PROJECT_DIR$/controlestextavanzados/controlestextavanzados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/followlessons/followlessons.iml" filepath="$PROJECT_DIR$/followlessons/followlessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layouts/layouts.iml" filepath="$PROJECT_DIR$/layouts/layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layouttablet/layouttablet.iml" filepath="$PROJECT_DIR$/layouttablet/layouttablet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipospantalla/tipospantalla.iml" filepath="$PROJECT_DIR$/tipospantalla/tipospantalla.iml" />
+    </modules>
+  </component>
+</project>
+

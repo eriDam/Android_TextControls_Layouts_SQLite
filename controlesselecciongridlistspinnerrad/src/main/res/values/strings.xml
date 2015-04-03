@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Controles Seleccion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="colores">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Naranja</item>
+        <item>Verde</item>
+        <item>Marrón</item>
+        <item>Negro</item>
+        <item>Blanco</item>
+    </string-array>
+</resources>

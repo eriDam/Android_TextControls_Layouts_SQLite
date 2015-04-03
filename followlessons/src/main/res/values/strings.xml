@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Follow Lessons</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="saludo">Bienvenido a Follow your Lessons</string>
+    <string name="title_activity_main">Menu principal</string>
+    <string name="crear">Crear BD y tabla</string>
+    <string name="insertar">Insertar curso</string>
+    <string name="borrar">Borrar curso</string>
+    <string name="buscar">Buscar curso</string>
+    <string name="titulo">Manager BD</string>
+    <string name="editar">Editar curso</string>
+    <string name="salir">Salir menu principal</string>
+    <string name="title_activity_manager_bd">"Manager Bd "</string>
+
+
+</resources>

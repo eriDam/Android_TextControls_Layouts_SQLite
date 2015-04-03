@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Controles Text avanzados</string>
+    <string name="action_settings">Settings</string>
+    <!--Creamos un String-array con la lista de paises que cogera
+    el autocompleteTextView-->
+    <string-array name="paises_array">
+        <item>España</item>
+        <item>México</item>
+        <item>Ecuador</item>
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>El Salvador</item>
+        <item>Panamá</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>Repueblica Dominicana</item>
+        <item>Venezuela</item>
+        <item>Uruguay</item>
+    </string-array>
+</resources>
